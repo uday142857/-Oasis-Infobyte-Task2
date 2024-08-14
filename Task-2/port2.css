@@ -1,0 +1,408 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+.head{
+    position: sticky;
+    top:0;
+    width: 100%;
+    height: 80px;
+    display: flex;
+    background-color: rgba(0, 0, 0, 0.855);
+    align-items: center;
+    /* justify-content: space-between; */
+}
+.name{
+    width: 40%;
+    color: white;
+    text-align: center;
+    font-size: 20px;
+    transition: 0.3s ease;
+    
+}
+.name:hover{
+    color: #00abfe;
+    text-shadow: 0 0 25px #00abfe;
+    transform: scale(1.1);
+}
+span{
+    color:#00abfe;
+}
+.nav{
+    width: 60%;
+    color: white;
+    display: flex;
+    justify-content: space-evenly;
+}
+.nav a{
+    color: white;
+    font-size: 18px;
+    border-bottom: 3px solid transparent;
+    transition: o.3s ease;
+}
+.nav a:hover,
+.nav a.active{
+    color: #00abfe;
+    border-bottom: 3px solid #00abfe;
+    text-shadow: 0 0 10px #00abfe;
+    transform: scale(1.1);
+}
+.main{
+    width: 100%;
+    height: 88.5vh;
+    background-color: black;
+    display: flex;
+    align-items: center;
+    /* gap:10em; */
+ 
+
+}
+.main1{
+    width: 60%;
+    height: 100%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+.blk{
+    width: 500px;
+    height: 300px;
+    margin-top: -100px;
+}
+.main1 h3{
+    font-size: 30px;
+}
+.main1 h1{
+    font-size: 45px;
+    line-height: 1.2;
+}
+.main1 p{
+    font-size: 15px;
+    margin: 25px 0 30px;
+}
+.bts{
+    /* width: 350px; */
+    display: flex;
+    gap:2em;  
+}
+
+.bt1{
+    background-color: white;
+    color: black;
+    font-size: 15px;
+    border-radius: 5px;
+    padding: 10px 25px;
+    cursor: pointer;
+    letter-spacing: 1px;
+    transition: 0.3s ease;
+}
+.bt1:hover{
+    color:white;
+    background-color: black;
+    border: 1px solid white;
+    box-shadow: 0 0 10px white;
+}
+.bt2{
+    background-color:#00abfe;
+    color: white;
+    font-size: 15px;
+    padding: 10px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+    letter-spacing: 1px;
+    transition: 0.3s ease;
+}
+.bt2:hover{
+    color:#00abfe;
+    background-color: white;
+    border: 1px solid #00abfe;
+    box-shadow: 0 0 10px #00abfe;
+}
+
+.pic{
+    width: 40%;
+    height: 100%;
+    /* display: flex;
+    justify-content: center;
+    align-items: center; */
+}
+.pic img{
+    width: 350px;
+    height: 450px;
+    /* margin-top: -80px; */
+    margin: 90px 0 0 30px;
+    border-radius: 50%;
+    transition: 0.3s ease;
+    
+}
+.pic img:hover{
+    box-shadow:0 0 25px #00abfe,
+               0 0 50px #00abfe ;
+    transform: scale(1.1);
+}
+.footer{
+    background-color: black;
+    width: 100%;
+    height: 80px;
+}
+
+.sm{
+    width: 40%;
+    text-align: center;
+    
+    /* background-color: black; */
+}
+
+.sm a{
+    font-size: 30px;
+    color: white;
+    margin: 5px;
+    border: 2px solid white;
+    border-radius: 100%;
+    padding: 10px;
+    display: inline-block;
+    transition: 0.5s ease;
+
+}
+.sm a:hover {
+    color: #00abfe;
+    border: 2px solid #00abfe;
+    box-shadow: 0 0 10px #00abfe;
+    transform: scale(1.1);
+}
+.maine{
+    width: 100%;
+    height: 88.5vh;
+    background-color: black;
+    display: flex;
+}
+
+.edu{
+    width: 50%;
+    height: 100%;
+    
+}
+
+
+.btech{
+    width: 700px;
+    height: 170px;
+    color: white;
+    margin: 25px 0 0 50px; 
+}
+.btech h1{
+    font-size: 40px;
+    color: white;
+}
+.btech li{
+    font-size: 20px;
+    margin: 25px;
+}
+.intern{
+    width: 700px;
+    height: 170px;
+    color: white;
+    margin: 25px 0 0 50px;
+    
+}
+.intern h1{
+    font-size: 40px;
+   
+}
+.intern li{
+    font-size: 20px;
+    margin: 25px;
+} 
+.qt{
+    width: 700px;
+    height: 170px;
+    color: white;
+    margin: 25px 0 0 50px;
+    
+}
+.qt h1{
+    font-size: 40px;
+   
+}
+.qt li{
+    font-size: 20px;
+    margin: 25px;
+}
+.edu span{
+    cursor: pointer;
+    display: inline-block;
+    transition: 0.3s ease;
+}
+.edu span:hover{
+
+    text-shadow: 0 0 25px #00abfe;
+    transform: scale(1.1);
+} 
+.ei{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+}
+.pic1{
+    width: 500px;
+    height: 300px;
+    
+}
+.pic1 img{
+    width: 500px;
+    height: 300px;
+}
+.pic1 img:hover{
+    box-shadow: 0 0 25px #00abfe;
+    transform: scale(1.1);
+}
+.mainp{
+    width: 100%;
+    height: 88.5vh;
+    background-color: black;
+    display: flex;
+}
+.pi{
+    width: 40%;
+    height: 100%;
+    
+}
+.project{
+    width: 60%;
+    height: 100%;
+}
+.clpr{
+    color: white;
+    width: 800px;
+    height: 200px;
+    margin: 70px 0 0 30px;
+}
+.clpr h1{
+    font-size: 35px;
+}
+.clpr li{
+    font-size: 18px;
+    margin: 20px 0 0 30px;
+}
+.ropr{
+    color: white;
+    width: 800px;
+    height: 200px;
+    margin: 70px 0 0 30px;
+}
+.ropr h1{
+    font-size: 35px;
+}
+.ropr li{
+    font-size: 18px;
+    margin: 20px 0 0 30px;
+}
+.pi{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+}
+
+.pic2{
+    width: 500px;
+    height: 300px;
+    
+}
+.pic2 img{
+    width: 500px;
+    height: 300px;
+}
+.pic2 img:hover{
+    box-shadow: 0 0 25px #00abfe;
+    transform: scale(1.1);
+}
+.project span{
+    cursor: pointer;
+    display: inline-block;
+    transition: 0.3s ease;
+}
+.project span:hover{
+
+    text-shadow: 0 0 25px #00abfe;
+    transform: scale(1.1);
+} 
+
+.mainc{
+    width: 100%;
+    height: 88.5vh;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.cblock{
+    width: 500px;
+    height: 450px;
+    box-shadow: 0 0 25px #00abfe;
+    font-size: 25px;
+    margin-top: -50px; 
+    border-radius: 5px; 
+}
+.cblock label{
+    color:white;
+    display: inline-block;
+    padding: 10px 0 0 30px;
+
+   
+}
+.cblock input{
+    color: white;
+    font-size: 18px;
+    margin-left: 100px;
+}
+.ipt{
+    width: 300px;
+    height: 50px;
+    padding-left: 10px;
+    border: 2px solid white;
+    border-radius: 5px;
+    background-color: black;
+}
+.ipt:focus{
+    border: 2px solid #00abfe;
+    outline:none;
+    box-shadow: 0 0 10px #00abfe;
+}
+
+::placeholder{
+    font-size: 18px;
+    color: white;
+}
+.sbt{
+    width: 500px;
+    height: 50px;
+    text-align: center;
+}
+.sbt button{
+    padding: 7px 15px;
+    border: 2px solid white;
+    font-size: 18px;
+    background-color:#00abfe ;
+    color:white;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 10px;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    
+}
+.sbt button:hover{
+    background-color:white;
+    border: 2px solid #00abfe;
+    color:#00abfe;
+
+}
